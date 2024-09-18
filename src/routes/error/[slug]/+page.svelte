@@ -11,6 +11,16 @@
     // console.log(solution);
 </script>
 
+<svelte:head>
+    <title>MineCrash | {errorName}</title>
+    <meta property="og:title" content="{errorName}" />
+    <meta property="og:description" content="{solution}" />
+    <meta name="description" content="{solution}" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+</svelte:head>
+
 <Header />
 
 <main>
