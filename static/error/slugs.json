@@ -1,0 +1,53 @@
+[
+    {
+        "slug": "book_dupe"
+    },
+    {
+        "slug": "cant_load_jar"
+    },
+    {
+        "slug": "class_not_found"
+    },
+    {
+        "slug": "could_not_pass_event"
+    },
+    {
+        "slug": "forge_java_error"
+    },
+    {
+        "slug": "incorrect_java_version"
+    },
+    {
+        "slug": "missing_forge_mod"
+    },
+    {
+        "slug": "outofmemoryerror"
+    },
+    {
+        "slug": "overload_warning"
+    },
+    {
+        "slug": "port_in_use"
+    },
+    {
+        "slug": "ram_overhead"
+    },
+    {
+        "slug": "running_as_root"
+    },
+    {
+        "slug": "serialization_error"
+    },
+    {
+        "slug": "serverhangwatchdog_killed_server"
+    },
+    {
+        "slug": "sha1_minecraft.class"
+    },
+    {
+        "slug": "unable_to_load_yml_file"
+    },
+    {
+        "slug": "world_session_lock"
+    }
+]
