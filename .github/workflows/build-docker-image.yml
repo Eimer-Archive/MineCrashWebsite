@@ -17,5 +17,5 @@ jobs:
       - name: Upload Docker Image
         uses: actions/upload-artifact@v4
         with:
-          name: mine-crash-website_{{ github.run_number }}
+          name: mine-crash-website_docker_image_${{ github.run_number }}
           path: mine-crash-website.tar
