@@ -22,13 +22,13 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker Image
-        run: docker build -t ghcr.io/${{ github.repository }}/mine-crash-website:latest .
+        run: docker build -t ghcr.io/eimer-archive/minecrashwebsite/mine-crash-website:latest .
 
       - name: Push Docker Image
-        run: docker push ghcr.io/${{ github.repository }}/mine-crash-website:latest
+        run: docker push ghcr.io/eimer-archive/minecrashwebsite/mine-crash-website:latest
 
       - name: Save Docker Image
-        run: docker save -o mine-crash-website.tar ghcr.io/${{ github.repository }}/mine-crash-website:latest
+        run: docker save -o mine-crash-website.tar ghcr.io/eimer-archive/minecrashwebsite/mine-crash-website:latest
 
       - name: Upload Docker Image
         uses: actions/upload-artifact@v4
